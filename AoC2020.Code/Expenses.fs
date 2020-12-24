@@ -2,7 +2,7 @@
 
 
 module ExpenseReport =
-    
+
     type PairResult = 
         NoPairs 
         | Pair of int * int

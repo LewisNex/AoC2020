@@ -25,6 +25,7 @@ namespace AoC2020.Tests
 		}
 
 		[Test]
+		[Explicit]
 		public void Real1()
 		{
 			var input = File.ReadAllLines(InputPath);

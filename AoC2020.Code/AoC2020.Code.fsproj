@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Utilities.fs" />
+    <Compile Include="BitMasks.fs" />
+    <Compile Include="TimeTables.fs" />
+    <Compile Include="Navigation.fs" />
+    <Compile Include="Seating.fs" />
+    <Compile Include="Joltage.fs" />
+    <Compile Include="BootCode.fs" />
+    <Compile Include="Luggage.fs" />
+    <Compile Include="Customs.fs" />
+    <Compile Include="Boarding.fs" />
+    <Compile Include="Passports.fs" />
+    <Compile Include="Sledding.fs" />
+    <Compile Include="Passwords.fs" />
+    <Compile Include="Expenses.fs" />
+	<Compile Include="Encoding.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="morelinq" Version="3.3.2" />
+  </ItemGroup>
+
+</Project>
